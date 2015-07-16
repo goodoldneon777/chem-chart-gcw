@@ -1,0 +1,148 @@
+#mOptions {
+	position: relative;
+	border: 1px solid gray;
+	width: 100%;
+	overflow: auto;
+}
+#mOptions #mainTitle {
+	width: 100%;
+	padding: 5px;
+	background-color: rgb(177, 213, 255);
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+#mOptions .contents {
+	padding: 10px;
+}
+#mOptions #elem {
+	width: 100%;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+#mOptions #elem select {
+	float: right;
+}
+#mOptions #sample {
+	width: 100%;
+	padding-bottom: 10px;
+	overflow: auto;
+}
+#mOptions #sample input {
+	float: right;
+	width: 50px;
+	font-size: 15px;
+}
+#mOptions #dataRange {
+	width: 100%;
+	padding-bottom: 40px;
+	overflow: auto;
+	text-align: center;
+}
+#mOptions #dataRange .title {
+	display: block;
+	text-align: center;
+}
+#mOptions #dataRange .min {
+	float: left;
+	margin-left: 10px;
+	width: 70px;
+	font-size: 15px;
+}
+#mOptions #dataRange .max {
+	float: right;
+	margin-right: 10px;
+	width: 70px;
+	font-size: 15px;
+}
+#mOptions #grade {
+	width: 100%;
+	padding-bottom: 30px;
+	overflow: auto;
+}
+#mOptions #grade input {
+	float: right;
+	width: 50px;
+	font-size: 15px;
+}
+#mOptions #start {
+	padding-bottom: 10px;
+	overflow: auto;
+}
+#mOptions #start input {
+	float: right;
+	width: 90px;
+	font-size: 15px;
+}
+#mOptions #end {
+	padding-bottom: 10px;
+	overflow: auto;
+}
+#mOptions #end input {
+	float: right;
+	width: 90px;
+	font-size: 15px;
+}
+#mOptions #round {
+	padding-bottom: 10px;
+	overflow: auto;
+}
+#mOptions #round input {
+	float: right;
+	width: 90px;
+	font-size: 15px;
+}
+#mOptions #generate {
+	margin: 10px;
+	padding: 7px;
+}
+
+
+
+
+#m-graph {
+	width: 100%;
+	height: 600px;
+	border: 1px solid gray;
+}
+
+
+
+
+
+#l-wrapper {
+	position: relative;
+	width: 100%;
+	max-width: 1380px;
+	margin: 0 auto;
+}
+
+#l-main {
+	vertical-align: top;
+	padding: 5px;
+	padding-left: 7px;
+}
+
+#l-sidebar {
+	width: 220px;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+
+
+
+.required {
+	border: 2px solid red;
+}
+
+
+* {
+	box-sizing: border-box;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
